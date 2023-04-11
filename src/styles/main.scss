@@ -1,0 +1,64 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~bootstrap/scss/bootstrap";
+
+
+body {
+  background-color: rgb(29, 34, 35);
+  color: rgb(45, 49, 50);
+  text-align: center;
+  margin-top: 50px;
+  background-image: url('https://gd-hbimg.huaban.com/32aadfcd70ed919289d904833ae7a95895165d35ffcf1-mPfkjC_fw1200webp');
+  font-family: "Avenir", "Avenir Next";
+}
+
+// order card
+#order-card{
+  display: flex;
+  float: left;
+  justify-content: space-around;
+  height: 350px;
+  width: 300px;
+  margin: 10px;
+  background-color:  rgb(249, 243, 236);
+  line-height: 1.5ch;
+  }
+
+// home page button and welcome
+#display-3{
+  margin-top: 250px;
+  color:antiquewhite;
+}
+.btn{
+  margin-bottom: 30px;
+}
+
+#viewOrder-btn{
+  margin-top: 150px;
+}
+
+// all forms
+#form-container{
+  width: 55%;
+  margin:auto;
+  justify-content: center;
+  color: white;
+  line-height: 0.5in;
+}
+
+// item card
+#item-card{
+  padding-top: 10px;
+  background-color:  rgb(249, 243, 236);
+  }
+
+
+// rev
+#rev-container{
+  margin-top: 200px;
+  color:antiquewhite;
+}
+
+// close form
+#view-details{
+  color: antiquewhite;
+}
